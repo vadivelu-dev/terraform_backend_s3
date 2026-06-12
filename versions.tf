@@ -9,9 +9,9 @@ terraform {
     }
 
     backend "s3" {
-        bucket = "terraform-backend-state"
+        bucket = "vadivelu-tfstate-108742335143"
         key = "terraform_backend_s3/terraform.tfstate"
-        region = "us-west-2"
+        region = "us-east-1"
         encrypt = true
         use_lockfile = true
     }
